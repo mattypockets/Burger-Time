@@ -2,7 +2,11 @@ $(function() {
     $(".change-eaten").on("click", function(event) {
         var id = $(this).data("id");
         var neweaten = $(this).data("neweaten");
-        
+        if (neweaten == false) {
+            neweaten = true;
+        } else {
+            neweaten = false;
+        }
         var newEatenState = {
             eaten: neweaten
         };
@@ -11,7 +15,7 @@ $(function() {
             data: newEatenState
         }).then(
             function() {
-                console.log("Changed eaten to ", newEaten);
+                console.log("Changed eaten to ", neweaten);
                 location.reload();
             }
         );
