@@ -1,1 +1,5 @@
-INSERT INTO burgers (name) VALUES("")
+INSERT INTO burgers (name) VALUES("Thank God it's Fried Egg Burger")
+INSERT INTO burgers (name) VALUES("Salvador Cauliflower Burger")
+INSERT INTO burgers (name) VALUES("Hit Me With Your Best Shallot Burger")
+INSERT INTO burgers (name) VALUES("If Looks Could Kale Burger")
+INSERT INTO burgers (name) VALUES("Say It Ain't Cilantro Burger - (Doesn't come with cilantro. Because cilantro is terrible.)")
